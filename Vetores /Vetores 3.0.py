@@ -15,8 +15,9 @@ maior_num = max(numeros)
 menor_num = min(numeros)
 
 for i, num in enumerate(numeros):
-    print(f"{i+1}ª Nota: {num}")
+    #print(f"{i+1}ª Nota: {num}")
 
+ print(f"Números {numeros[i]}")
 #Exibindo números maiores e menores 
 print(f"Maior número = {maior_num}")
 print(f"Menor número = {menor_num}")
